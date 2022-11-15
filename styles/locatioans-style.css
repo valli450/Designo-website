@@ -1,0 +1,196 @@
+.content__loaction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.content__loaction__block{
+    width: 100%;
+    height: 44.6rem;
+    background: url(../assets/shared/desktop/bg-pattern-three-circles.svg),
+        #FDF3F0;
+    background-position: left 320px;
+    background-repeat: no-repeat;
+}
+
+.content__loaction__block__img{
+    width: 100%;
+    height: 20rem;
+}
+
+#canada{
+    background-image: url(../assets/locations/tablet/image-map-canada.png) !important;
+}
+
+#australia{
+    background-image: url(../assets/locations/tablet/image-map-australia.png) !important;
+}
+
+#uk{
+    background-image: url(../assets/locations/tablet/image-map-uk.png) !important;
+}
+
+.content__loaction__block__text{
+    width: 100%;
+    height: 24.6rem;
+    padding: 5rem 1.5rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 1.5rem;
+}
+
+.content__loaction__block__text h2{
+    font-family: 'Jost', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    color: #E7816B;
+}
+
+.content__loaction__block__text__main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.content__loaction__block__text__main__split h3{
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    color: #333136;
+}
+
+.content__loaction__block__text__main__split p{
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: #333136;
+}
+
+@media screen and (min-width: 700px) {
+    .content__loaction{
+        gap: 7.5rem;
+    }
+    
+    .content__loaction__block{
+        margin: 0 auto;
+        width: 43rem;
+        height: 42.6rem;
+        background: none;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .content__loaction__block__img{
+        width: 100%;
+        height: 20.3rem;
+        border-radius: 15px;
+    }
+    
+    .content__loaction__block__text{
+        border-radius: 15px;
+        background: url(../assets/shared/desktop/bg-pattern-two-circles.svg),
+            #FDF3F0;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 20.3rem;
+        padding: 5.5rem 4.6rem; 
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .content__loaction__block__text h2{
+        text-align: left;
+    }
+
+    .content__loaction__block__text__main{
+        display: flex;
+        flex-direction: row;
+        gap: 6.5rem;
+    }
+    
+    .content__loaction__block__text__main__split h3{
+        font-size: 16px;
+        line-height: 26px;
+        text-align: left;
+    }
+    
+    .content__loaction__block__text__main__split p{
+        font-size: 16px;
+        line-height: 26px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .content__loaction__block{
+        width: 53rem;
+    }
+
+    .content__loaction__block__img{
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+}   
+
+@media screen and (min-width: 1200px){
+    .content__loaction{
+        gap: 2rem;
+    }
+    
+    .content__loaction__block{
+        width: 69.3rem;
+        height: 20.3rem;
+        display: flex;
+        flex-direction: row;
+        gap: 1.8rem;
+    }
+    
+    .content__loaction__block__img{
+        width: 21.8rem;
+    }
+    
+    .content__loaction__block__text{
+        background: url(../assets/shared/desktop/bg-pattern-three-circles.svg),
+            #FDF3F0;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        width: 45.6rem;
+        height: 20.3rem;
+        padding: 5.5rem 5.9rem; 
+    }
+    
+    .content__loaction__block__text h2{
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    .reverse .content__loaction__block__img{
+        order: 1;
+    }
+
+
+    #canada{
+        background-image: url(../assets/locations/desktop/image-map-canada.png) !important;
+    }
+
+    #australia{
+        background-image: url(../assets/locations/desktop/image-map-australia.png) !important;
+    }
+
+    #uk{
+        background-image: url(../assets/locations/desktop/image-map-united-kingdom.png) !important;
+    }
+}

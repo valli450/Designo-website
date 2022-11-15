@@ -1,0 +1,394 @@
+.content__title{
+    height: 44.5rem;
+    background: url("../assets/about/mobile/bg-pattern-hero-about-mobile.svg"),
+        #E7816B;
+    background-position: -500px 200px;
+    background-repeat: no-repeat;
+}
+
+.content__title__img{
+    height: 20rem;
+    background-image: url("../assets/about/mobile/image-about-hero.jpg");
+}
+
+.content__title__text{
+    display: flex;
+    height: 24.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5rem;
+    gap: 1.5rem;
+}
+
+.content__title__text h2{
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;   
+}
+
+.content__title__text p{
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.content__talent{
+    height: 54rem;
+    background: url("../assets/shared/desktop/bg-pattern-three-circles.svg"),
+        #FDF3F0;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.content__talent__img{
+    height: 20rem;
+    background-image: url("../assets/about/mobile/image-world-class-talent.jpg");
+}
+
+.content__talent__text{
+    height: 34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 5rem 1.5rem;
+    gap: 1.5rem;
+}
+
+.content__talent__text h2{
+    color: #E7816B;
+    font-family: 'Jost', sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.content__talent__text p{
+    color: #333136;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.content__deal{
+    height: 54rem;
+    background: url("../assets/shared/desktop/bg-pattern-three-circles.svg"),
+        #FDF3F0;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.content__deal__img{
+    height: 20rem;
+    background-image: url("../assets/about/mobile/image-real-deal.jpg");
+}
+
+.content__deal__text{
+    height: 34rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 5rem 1.5rem;
+    gap: 1.5rem;
+}
+
+.content__deal__text h2{
+    color: #E7816B;
+    font-family: 'Jost', sans-serif;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.content__deal__text p{
+    color: #333136;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 700px) {
+    .content__title{
+        width: 43rem;
+        height: 39.5rem;
+        margin: 0 auto;
+        border-radius: 15px;
+        background: url("../assets/about/desktop/bg-pattern-hero-about-desktop.svg"),
+            #E7816B;
+        background-position: -80px -120px;
+        background-repeat: no-repeat;
+    }
+    
+    .content__title__img{
+        background-image: url("../assets/about/tablet/image-about-hero.jpg");
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    
+    .content__title__text{
+        height: 23rem;
+        justify-content: start;
+        padding: 4rem  3.6rem;
+    }
+    
+    .content__title__text h2{
+        font-size: 48px;
+        line-height: 48px; 
+    }
+    
+    .content__title__text p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .content__talent{
+        margin: 7.5rem auto 0 auto;
+        height: 46rem;
+        width: 43rem;
+        border-radius: 15px;
+        background-position: right center;
+    }
+    
+    .content__talent__img{
+        background-image: url("../assets/about/tablet/image-world-class-talent.jpg");
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    
+    .content__talent__text{
+        height: 26rem;
+        padding: 4.25rem 3.6rem;
+    }
+    
+    .content__talent__text h2{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    
+    .content__talent__text p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .content__locations{
+        gap: 5rem;
+    }
+    
+    .content__deal{
+        width: 43rem;
+        height: 46rem;
+        margin: 0 auto;
+        border-radius: 15px;
+        background-position: right center;
+    }
+    
+    .content__deal__img{
+        background-image: url("../assets/about/tablet/image-real-deal.jpg");
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    
+    .content__deal__text{
+        height: 23rem;
+        padding: 4.25rem 3.6rem;
+    }
+    
+    .content__deal__text h2{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    
+    .content__deal__text p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .content__title{
+        width: 53rem;
+    }
+    
+    .content__title__img{
+        background-size: 100%;
+    }
+    
+    .content__talent{
+        width: 53rem;
+    }
+    
+    .content__talent__img{
+        background-size: 100%;
+    }
+    
+    .content__deal{
+        width: 53rem;
+    }
+    
+    .content__deal__img{
+        background-size: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    body {
+        background: url('../assets/shared/desktop/bg-pattern-leaf.svg');
+        background-repeat: no-repeat;
+        background-size: 1006px 594px;
+        background-position: top 475px left;
+    }
+
+    .bg__block{
+        opacity: 1 !important;
+        z-index: -1 !important;
+        width: 610px !important;
+        height: 37.1rem !important;
+        top: 111rem !important;
+        right: 0 !important;
+        margin: 0 0  0 auto !important;
+        background: url('../assets/shared/desktop/bg-pattern-leaf.svg') !important;
+        background-size: 100%;
+        background-position: 610px center !important;
+        background-repeat: no-repeat;
+        background-color: none !important;
+        transform: rotate(180deg);
+    }
+    
+    .content__title{
+        width: 69.4rem; 
+        height: 30rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background: url("../assets/about/desktop/bg-pattern-hero-about-desktop.svg"),
+            #E7816B;
+        background-position: left -160px;
+    }
+
+    .content__title__img{
+        width: 29.75rem;
+        height: 30rem;
+        background-image: url("../assets/about/desktop/image-about-hero.jpg");
+        order: 1;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 0;
+    }
+
+    .content__title__text{
+        order: 0;
+        width: 39.6rem;
+        height: 30rem;
+        align-items: start;
+        justify-content: center;
+        padding: 0 5.9rem;
+        gap: 2rem;
+    }
+
+    .content__title__text h2{
+        text-align: left;   
+    }
+
+    .content__title__text p{
+        text-align: left;
+        font-size: 15.5px;
+    }
+
+    .content__talent{
+        margin: 10rem auto 0 auto;
+        height: 40rem;
+        width: 69.4rem;
+        border-radius: 15px;
+        background-position: center center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .content__talent__img{
+        height: 40rem;
+        width: 29.75rem;
+        background-image: url("../assets/about//desktop/image-world-class-talent.jpg");
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 0;
+    }
+    
+    .content__talent__text{
+        height: 40rem;
+        width: 39.6rem;
+        padding: 9.6rem 5.8rem;
+        align-items: start;
+    }
+    
+    .content__talent__text h2{
+        text-align: left;
+    }
+    
+    .content__talent__text p{
+        text-align: left;
+    }
+    
+    .content__locations{
+        margin: 10rem auto;
+        width: 69.4rem;
+        padding: 0 4.6rem;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    } 
+    
+    .content__locations__block__text button{
+        cursor: pointer;
+        transition: background-color 0.5s;
+    }
+
+    .content__locations__block__text button:hover{
+        background-color: #FFAD9B;
+    }
+    
+    .content__deal{
+        width: 69.4rem;
+        height: 40rem;
+        background-position: left center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .content__deal__img{
+        height: 40rem;
+        width: 29.75rem;
+        order: 1;
+        background-image: url("../assets/about/desktop/image-real-deal.jpg");
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 15px;
+    }
+    
+    .content__deal__text{
+        height: 40rem;
+        width: 39.6rem;
+        padding: 9.6rem 5.8rem;
+        align-items: start;
+    }
+    
+    .content__deal__text h2{
+        text-align: left;
+    }
+    
+    .content__deal__text p{
+        text-align: left;
+    }
+}

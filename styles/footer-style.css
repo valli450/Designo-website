@@ -1,0 +1,227 @@
+.footer{
+    margin-top: 17.8rem;
+    padding-top: 15.8rem;
+    padding-bottom: 4rem;
+    background-color: #1D1C1E;
+}
+
+.footer__logo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.footer__logo img{
+    width: 202px;
+}
+
+.footer__info{
+    width: 20.4rem;
+    margin: 0 auto;
+    border-top: 1px solid hsla(0, 0%, 100%, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 2.5rem;
+}
+
+.footer__info__menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.footer__info__menu li a{
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.footer__info__address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.footer__info__address__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer__info__address__block h5{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color: hsla(0, 0%, 100%, 0.5);
+}
+
+.footer__info__address__block p{
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: hsla(0, 0%, 100%, 0.5);
+}
+
+.footer__info__social{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 1rem;
+}
+
+.footer__info__social a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 700px) {
+    .footer{
+        margin-top: 24rem;
+        padding-top: 10.3rem;
+        padding-bottom: 4rem;
+    }
+
+    .footer__logo{
+        width: 43rem;
+        margin: 0 auto;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        padding-bottom: 2.5rem;
+    }
+
+    .footer__logo img{
+        width: 202px;
+    }
+
+    .footer__info{
+        width: 43rem;
+        padding-top: 2.5rem;
+        flex-direction: row;
+        justify-content: start;
+        gap: 2.5rem;
+    }
+
+    .footer__info__menu{
+        width: 23.1em;
+        position: absolute;
+        margin-top: -16.4rem;
+        margin-left: 19.9rem;
+        flex-direction: row;
+        justify-content: end;
+        gap: 2rem;
+    }
+
+    .footer__info__address{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .footer__info__address__block{
+        width: 13.9rem;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        text-align: start;
+    }
+
+    .footer__info__social{
+        position: absolute;
+        margin-top: 3rem;
+        margin-left: 31.5rem;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .footer__logo{
+        width: 53rem;
+    }
+
+    .footer__logo img{
+        width: 202px;
+    }
+
+    .footer__info{
+        width: 53rem;
+    }
+
+    .footer__info__menu{
+        margin-left: 30.1rem;
+    }
+
+    .footer__info__social{
+        margin-left: 41.5rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .footer{
+        margin-top: 23.75rem;
+        padding-top: 9rem;
+    }
+
+    .footer__logo{
+        width: 69.4rem;
+    }
+
+    .footer__info{
+        width: 69.4rem;
+    }
+
+    .footer__info__menu{
+        margin-left: 46.4rem;
+    }
+
+    .footer__info__menu li{
+        cursor: pointer;
+        transition: border 0.5s;
+    }
+
+    .footer__info__menu li a{
+        text-decoration: none;
+    }
+
+    .footer__info__menu li:hover{
+        border-bottom: 1px solid #fff;
+    }
+
+    .footer__info__address__block{
+        width: 21.8rem;
+    }
+
+    .footer__info__social{
+        margin-left: 57.9rem;
+    }
+
+    .footer__info__social a{
+        cursor: pointer;
+        transition: fill 0.5s;
+    }
+
+    .footer__info__social a:hover svg path{
+        fill: #FFAD9B;
+    }
+}

@@ -1,0 +1,393 @@
+.content__projects{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.content__projects__block{
+    width: 20.4rem;
+    height: 15.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    border-radius: 15px;
+}
+
+.content__projects__block__title{
+    font-family: 'Jost', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+.content__projects__block__view-project{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.content__projects__block__view-project p{
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#web-design{
+    background-image: url("../assets/home/mobile/image-web-design.jpg");
+}
+
+#app-design{
+    background-image: url("../assets/home/mobile/image-app-design.jpg");
+}
+
+#graphic-design{
+    background-image: url("../assets/home/mobile/image-graphic-design.jpg");
+}
+
+.content__git{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 6rem; 
+    height: 23.6em;
+    width: 20.4rem;
+    border-radius: 15px;
+    background: url(../assets/shared/desktop/bg-pattern-three-circles.svg),
+        #E7816B;
+    background-position: 80px -20px;
+    background-size: 150%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.content__git h2{
+    width: 17.4rem;
+    font-family: 'Jost', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #fff;
+}
+
+.content__git p{
+    width: 17.4rem;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 25px;
+}
+
+.content__git a{
+    margin-top: 1rem;
+    width: 9.5rem;
+    height: 3.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+    color: #333136;
+    font-family: 'Jost', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__locations{
+    margin: 7.5rem auto;
+    width: 21.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.content__locations__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}  
+
+.content__locations__block__img{
+    width: 12.6rem;
+    height: 12.6rem;
+    border-radius: 50%;
+}
+
+#canada{
+    background: linear-gradient(rgba(93, 2, 2, 0.2), rgba(93, 2, 2, 0.0001));
+}
+
+#australia{
+    background: linear-gradient(to right, rgba(93, 2, 2, 0.2), rgba(93, 2, 2, 0.0001));
+}
+
+#uk{
+    background: linear-gradient(to top,rgba(93, 2, 2, 0.2), rgba(93, 2, 2, 0.0001));
+}
+
+.content__locations__block__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.content__locations__block__text h2{
+    font-family: 'Jost', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333136;
+    line-height: 26px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.content__locations__block__text button{
+    width: 9.5rem;
+    height: 3.5rem;
+    background-color: #E7816B;
+    color: #fff;
+    border-radius: 8px;
+    text-transform: uppercase;
+    border: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+@media screen and (min-width: 700px){
+    .content__projects__block{
+        width: 43rem;
+        height: 12.5rem;
+        gap: 1.5rem;
+    }
+    
+    .content__projects__block__title{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    
+    #web-design{
+        background-image: url(../assets/home/tablet/image-web-design.jpg);
+    }
+    
+    #app-design{
+        background-image: url(../assets/home/tablet/image-app-design.jpg);
+    }
+    
+    #graphic-design{
+        background-image: url(../assets/home/tablet/image-graphic-design.jpg);
+    }
+
+    .content__git{
+        margin-top: 7.5rem; 
+        height: 21.8em;
+        width: 43rem;
+        border-radius: 15px;
+        background: url(../assets/web-design/desktop/bg-pattern-intro-web.svg),
+            #E7816B;
+        background-position: -150px -140px;
+        background-size: 140%;
+
+    }
+    
+    .content__git h2{
+        width: 17.4rem;
+        font-family: 'Jost', sans-serif;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 36px;
+        color: #fff;
+    }
+    
+    .content__git p{
+        width: 20.9rem;
+    }
+    
+    .content__git a{
+        margin-top: 1rem;
+        width: 9.5rem;
+        height: 3.5rem;
+        border-radius: 8px;
+        border: none;
+        background-color: #fff;
+        color: #333136;
+        font-family: 'Jost', sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .content__locations{
+        gap: 5rem;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .content__projects__block{
+        width: 53rem;
+        height: 14rem;
+    }
+
+    #app-design{
+        background-size: cover;
+    }
+    
+    #graphic-design{
+        background-size: cover;
+    }
+    
+    #web-design{
+        background-size: cover;
+
+    }
+
+    .content__git{
+        width: 53rem;
+    }
+
+    .content__git{
+        width: 53rem;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .content__projects{
+        width: 69.4rem;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.8rem;
+    }
+
+    .content__projects__block{
+        width: 33.8rem;
+        height: 19.25rem;
+        cursor: pointer;
+    }
+
+    .content__projects__block:hover .hover__block{
+        background-color: #e7826b5a;
+    }
+
+    .hover__block{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1.5rem;
+        background-color: #00000028;
+        border-radius: 15px;
+    }
+
+    .content__projects__block__title{
+        font-size: 40px;
+        line-height: 48px;
+    }
+
+    #app-design{
+        background-image: url(../assets/home/desktop/image-app-design.jpg);
+    }
+
+    #web-design{
+        background-image: url("../assets/home/desktop/image-web-design-small.jpg");
+    }
+
+    #graphic-design{
+        background-image: url(../assets/home/desktop/image-graphic-design.jpg);
+    }
+
+    .content__git{
+        margin-top: 10rem; 
+        height: 18.25em;
+        width: 69.4rem;
+        background-position: 0px -220px;
+        background-size: 100%;
+        flex-direction: row;
+        align-items: start;
+        justify-content: start;
+        padding: 4.5rem 5.9rem;
+        text-align: left;
+    }
+
+    .content__git h2{
+        width: 17.4rem;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .content__git p{
+        position: absolute;
+        margin-top: 6rem;
+        width: 28.6rem;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .content__git a{
+        position: absolute;
+        margin-top: 3rem;
+        margin-left: 48.1rem;
+        cursor: pointer;
+        transition: background-color 0.5s, color 0.5s;
+    }
+
+    .content__git a:hover{
+        background-color: #FFAD9B;
+        color: #fff;
+    }
+
+    .content__locations{
+        margin: 10rem auto;
+        width: 69.4rem;
+        padding: 0 4.6rem;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+    } 
+    
+    .content__locations__block__text button{
+        cursor: pointer;
+        transition: background-color 0.5s;
+    }
+
+    .content__locations__block__text button:hover{
+        background-color: #FFAD9B;
+    }
+}
